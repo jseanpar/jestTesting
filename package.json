@@ -1,0 +1,28 @@
+{
+  "name": "platzitest",
+  "version": "1.0.0",
+  "description": "pruebas unitarias con jest ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "jest",
+    "pruebas",
+    "unitarias"
+  ],
+  "author": "Jose Rubilar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
